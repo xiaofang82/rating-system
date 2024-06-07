@@ -16,11 +16,11 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <main>
       <Rating />
       <button onClick={openDialog} className="open-dialog-button">Open Dialog</button>
       {isDialogOpen && <Dialog onClose={closeDialog} />}
-    </div>
+    </main>
   );
 };
 

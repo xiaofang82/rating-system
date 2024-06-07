@@ -3,9 +3,9 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #1a1a1a;
-  }
+}
   
-  .App {
+main {
     font-family: Arial, sans-serif;
     text-align: center;
     height: 100vh;
@@ -15,21 +15,21 @@ body {
     align-items: center;
     position: relative;
     color: white;
-  }
+}
   
-  .star-rating {
+.star-rating {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-  }
+}
   
-  .star-rating svg {
+.star-rating svg {
     width: 50px;
     height: 50px;
     cursor: pointer;
-  }
+}
   
-  .open-dialog-button {
+.open-dialog-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -41,9 +41,9 @@ body {
     border: none;
     border-radius: 8px;
     text-transform: uppercase;
-  }
+}
   
-  .dialog {
+.dialog {
     position: fixed;
     top: 0;
     left: 0;
@@ -53,9 +53,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .dialog-content {
+.dialog-content {
     background: rgb(255, 255, 255);
     padding: 50px;
     border-radius: 5px;
@@ -63,15 +63,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  .dialog-content svg {
+.dialog-content svg {
     width: 150px;
     height: 150px;
     color: #007aff;
-  }
+}
 
-  .dialog-content button {
+.dialog-content button {
     margin-top: 20px;
     font-size: 14px;
     cursor: pointer;
@@ -81,5 +81,5 @@ body {
     border-radius: 8px;
     padding: 10px 20px;
     text-transform: uppercase;
-  }
+}
   
